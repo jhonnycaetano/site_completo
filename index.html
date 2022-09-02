@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/estilo.css">
+<title>Exemplo JavaScript</title>
+
+
+</head>
+<body>
+   <header>
+      <nav>
+         <a href="#">INÍCIO</a>
+         <a href="#">FGTS</a>
+         <a href="#">FERIAS</a>
+         <a href="#">DÉCIMO</a>
+      </nav>
+    <h3>TECTREINAMENTOS</h3>
+     <h4>EXEMPLO DE PÁGINA JAVASCRIPT</h4>   
+</header> 
+<BR>
+   <!--
+<div class="compre">
+   <h5>Compre Agora Mesmo</h5>
+   <button>COMPRAR</button>
+
+</div>
+-->
+<br><br>
+   <section class="container">
+      <h1>TECTREINAMENTOS INFORMÁTICA</h1>
+		<h2>Cursos de Informática e Tecnologia</h2>
+		<p>Olá!</p>
+		<p>Vamos falar um pouco sobre o conteúdo a seguir.</p>
+		<p>Nesta página vamos abordar um exemplo de site com as tecnologias HTML, CSS e JavaScript.</p>
+		<p>O intuito da página é abordar com exemplos práticos o desenvolvimento de uma aplicação Web com as citadas tecnologias e não trabalhar de fato com departamento pessoal e áreas afins.</p>
+		<p>Em resumo essa página foi criada apenas a título de exemplo para alunos de cursos de desenvolvimento de sites e não deverá ser considerada como base para qualquer tipo de cálculo trabalhista.</p><br>
+   </section>
+   
+      <br>
+      <section class="container">
+      <H2>FGTS</H2>
+      <p>O que é: O FGTS é uma poupança aberta pela empresa em nome do trabalhador que funciona como uma garantia para protegê-lo em caso de demissão sem justa causa.</p> 
+      <p>Os valores do FGTS pertencem exclusivamente ao trabalhador e, em algumas situações especiais, pode ser sacado sem que o trabalhador tenha deixado o emprego.</p>
+      <h2>Cálculo</h2>
+      <br><br>
+
+      <label for="salario">salário</label><br>
+      <input type="number" id="salario" placeholder="Insira seu salário">
+      <br><br>
+      <label for="tempo">Tempo Trabalhado (em meses)</label><br>
+      <input type="number" id="tempo" placeholder="Insira o numero de meses">
+      <br><br>
+      <button onclick="fgts()">CALCULAR</button>
+      <br><br>
+      <p><b>O valor aproximado de FGTS no período é de: R$<span></span></b></p>
+      <script type="text/javascript">
+         let salario = document.querySelector("#salario");
+         let tempo = document.querySelector("#tempo");
+         let resultado = document.querySelector("span");
+
+         function fgts(){
+            resultado.innerHTML = parseFloat(salario.value/100*8)*tempo.value;
+         }
+
+      </script>
+
+   </section>
+   <br>
+   <br>
+   <br>
+   <section class="container">
+   <h2>Férias</h2>
+   <p>De acordo com a lei trabalhista, o funcionário que sai de férias tem o direito de receber a remuneração mensal adiantada mais um adicional, que equivale a um terço do pagamento.</p>
+   <p>O valor total deve ser depositado na conta do funcionário até dois dias antes do início do período de descanso.</p>
+   <h2>Cálculo</h2>
+   <br><br>
+   <a href="ferias.html" class="link" >Clique para Calcular Férias</a>
+   <br><br><br>
+
+   </section>
+   <br>
+   <br>
+   <br>
+   <section class="container">
+   <H2>Décimo</H2>
+   <p>O décimo terceiro, também conhecido como gratificação de Natal, foi instituído no país em 1962. O direito ao trabalhador foi implementado no governo João Goulart, por meio da lei nº 4.090/1962.</p>
+   <p>Como o nome sugere, ele é uma remuneração extra, que é paga no fim do ano.</p>
+   <h2>Cálculo</h2>
+         </section>
+   <br>
+   <br>
+   <section class="container" id="grid-container">
+
+     <div class="grid">
+
+      <div>conteúdo 1</div>
+      <div>conteúdo 2</div>
+      <div>conteúdo 3</div>
+      <div>conteúdo 4</div>
+      <div>conteúdo 5</div>
+      <div>conteúdo 6</div>
+
+
+         </section>
+
+         <br>
+<!--
+         <section class="container" id="formulario">
+            
+            <h2>Selecione um Produto para Mais Informações</h2>
+
+            <form action="#" method="get" target="_blank">
+
+             <P class="formulario-contato"> 
+
+               <label for="nome">Nome</label><br>
+               <input class="dados-formulario" type="text" id="nome" name="nome" placeholder="Insira seu Nome ">
+
+             </P>
+
+             <P class="formulario-contato"> 
+               
+               <label for="contato">Contato</label><br>
+               <input class="dados-formulario" type="tel" id="tel" name="tel" placeholder="Insira seu WhatsApp ">
+
+             </P>
+
+             <P class="formulario-contao">
+               <input type="checkbox" id="office" name="office" value="cursos de office">
+               <label for="office">Quero saber mais sobre Cursos de Pacote Office</label>
+               <br><br>
+               <input type="checkbox" id="web" name="web" value="cursos de Web">
+               <label for="web">Quero saber mais sobre Cursos de Desenvolvimento Web</label>
+               <br><br>
+
+               <input type="checkbox" id="marketing" name="markeing" value="cursos de marketing">
+               <label for="marketing">Quero saber mais sobre Cursos Marketing Digital</label>
+               <br><br>
+
+             </P>
+             <p class="formulario-contato">
+            <input type="reset" value="LIMPAR">
+            <input type="submit" value="ENVIAR">
+
+
+             </p>
+
+            </form>
+
+               </section> -->
+         <br>
+
+
+   <br><br>
+   <footer>
+      <h3>TECTREINAMENTOS INFORMATICA</h3>
+     <h4>EXEMPLO DE PÁGINA EM JAVASCRIPT</h4><br>
+     <p class="texto-footer">contatos</p>
+     <p class="texto-footer">jhonny.souza@gmail.com</p>
+     <p class="texto-footer">CNPJ: 00.000.000/0001-00</p>
+   </footer>
+</body>
+</html>
