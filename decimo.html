@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <title>Exemplo Férias</title>
+    <title>Exemplo Décimo Terceiro</title>
 
 
 </head>
+
 <body>
 
 
     <header>
         <nav>
-            <a href="index.html"> << voltar </a>
-         </nav>
+            <a href="index.html">
+                << voltar </a>
+        </nav>
 
-       
+
         <h3>TECTREINAMENTOS</h3>
         <h4>EXEMPLO DE PÁGINA JAVASCRIPT</h4>
     </header>
@@ -31,38 +34,36 @@
 -->
     <br><br><br><br>
     <br>
-   
+
     <br><br><br>
     <section class="container">
-        <h2>Férias</h2>
-        <p>De acordo com a lei trabalhista, o funcionário que sai de férias tem o direito de receber a remuneração
-            mensal adiantada mais um adicional, que equivale a um terço do pagamento.</p>
-        <p>O valor total deve ser depositado na conta do funcionário até dois dias antes do início do período de
-            descanso.</p>
+        <H2>Décimo</H2>
+   <p>O décimo terceiro, também conhecido como gratificação de Natal, foi instituído no país em 1962. O direito ao trabalhador foi implementado no governo João Goulart, por meio da lei nº 4.090/1962.</p>
+   <p>Como o nome sugere, ele é uma remuneração extra, que é paga no fim do ano.</p>
         <br><br>
         <div class="resposta">
-        <script type="text/javascript">
-            let salario = prompt("Insira o seu atual salário");
-            salario = Number(salario);
-            let abono = salario/3;
-            let bruto = salario+abono;
-            let imposto = bruto/100*9;
-            let liquido = bruto-imposto;
+            <script type="text/javascript">
+         
+            let salario = prompt("Digite seu salário");
+            let primeiraParcela = salario/2;
+            let imposto = salario/100*9;
+            let segundaParcela = salario-imposto-primeiraParcela;
 
-            document.write("Salálario Informado: R$"+salario+"<br />"+"<br />");
-            document.write("Abono de 1/3: R$"+abono+"<br />"+"<br />");
-            document.write("Valor Bruto de férias: R$"+bruto+"<br />"+"<br />");
-            document.write("Valor de Imposto: R$"+imposto+"<br />"+"<br />");
-            document.write("Valor a Receber: R$"+liquido+"<br />"+"<br />");
-        </script>
+            document.write("Salário informado: R$"+salario+"<br />");
+            document.write("Primeira parcela: R$"+primeiraParcela+"<br />");
+            document.write("Imposto: R$"+imposto+"<br />");
+            document.write("Segunda parcela: R$"+segundaParcela+"<br />");
 
-</div>
+            </script>
+
+        </div>
+        <br><br>
 
     </section>
 
     <br>
     <br>
-   
+
 
     <!--
          <section class="container" id="formulario">
